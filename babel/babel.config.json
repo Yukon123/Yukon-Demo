@@ -6,7 +6,8 @@
         "targets": {
           "node": "current"
         },
-        "useBuiltIns": "usage"
+        "useBuiltIns": "usage",
+        "corejs": "3.40.0" // This is the version of core-js that we are using
       }
     ]
   ]
