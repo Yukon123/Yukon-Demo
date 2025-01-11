@@ -1,5 +1,7 @@
 "use strict";
 
+require("core-js/modules/es.array.at.js");
+require("core-js/modules/es.object.has-own.js");
 console.log(['a', 'b', 'c'].at(-1)); // 使用 Array.prototype.at
 console.log(Object.hasOwn({
   key: 'value'
