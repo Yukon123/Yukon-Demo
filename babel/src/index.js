@@ -1,6 +1,7 @@
+
 console.log(['a', 'b', 'c'].at(-1)); // 使用 Array.prototype.at
 console.log(Object.hasOwn({ key: 'value' }, 'key')); // 使用 Object.hasOwn
-
+Promise.resolve().finally();
 
 
 // Babel Input: ES2015 arrow function
